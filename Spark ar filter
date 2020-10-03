@@ -1,0 +1,18 @@
+Instagram filter inspired by the aesthetic of mars.
+ 
+Software used: Spark ar
+
+This filter portrays the user in the musty,cold background of mars with rockets whirling around the head.
+A face tracker is added and to that an image depicting the mars background is selected and set as the background of the filter by adding materials and person segmentation so that the person's face is visible . To revolve the rocket around the head, a rectangular plane is added.
+
+There are numerous assets and materials and available in the spark ar library itself which can be used to make the filter look striking.
+
+After the completion, filter has to be submitted for approval by instagram where they provide a link for preview of the filter.
+
+Further additions planned:
+I might add audio to it as soon as I find the appropriate one.
+
+The filter can be used by anyone having an instagram account.
+
+(STILL IN PROGRESS)
+
