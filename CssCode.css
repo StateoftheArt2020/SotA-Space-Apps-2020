@@ -1,0 +1,108 @@
+body {
+  height: 100vh;
+   width: 100vh; 
+  
+/*   background: radial-gradient(ellipse at top, #1B2735 0%, #090A0F 100%) */
+ background: rgb(10,61,71);
+background: linear-gradient(rgba(10,61,71,1) 0%, rgba(0,11,21,1) 50%); 
+/* background: rgb(23,65,87);
+background: linear-gradient( rgba(23,65,87,1) 0%, rgba(0,0,0,1) 67%); */
+}
+
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+.planet,
+.star {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  top: calc(50% - var(--size)/2);
+  left: calc(50% - var(--size)/2);
+  border-radius: 50%;
+}
+
+.earth {
+  width: 150pt;
+  height: 150pt;
+/*   border: .15pt solid black; */
+  top: calc(50% - 75pt);
+  left: calc(50% - 75pt);
+    transition-duration: 2s;
+  transition-delay: 1s;
+  background: rgb(47,136,170);
+background: linear-gradient(90deg, rgba(47,136,170,1) 0%, rgba(0,19,37,0.9839286056219363) 100%);
+/*   background: rgb(47,136,170);
+background: linear-gradient(90deg, rgba(47,136,170,1) 0%, rgba(0,0,0,0.9839286056219363) 100%); */
+/*   background: linear-gradient(90deg, royalblue, deepskyblue); */
+/* background: rgb(7,67,79);
+background: linear-gradient(90deg, rgba(7,67,79,1) 0%, rgba(33,140,159,1) 67%); */
+  animation: earth 22s infinite linear;
+}
+
+@keyframes earth {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg); /*translateX(10px);*/
+  }
+}
+
+.mars {
+  width: 300pt;
+  height: 300pt;
+/*   border: .15px solid black; */
+  top: calc(50% - 150pt);
+  left: calc(50% + 100pt);
+  background: rgb(170,69,52);
+background: linear-gradient(90deg, rgba(170,69,52,1) 0%, rgba(22,0,2,0.9839286056219363) 100%);
+/* background: rgb(44,8,8);
+background: linear-gradient(45deg, rgba(44,8,8,1) 0%, rgba(158,46,46,1) 67%); */
+  animation: mars 12s alternate infinite linear;
+}
+
+@keyframes mars {
+  from {
+    transform: translateX(0pt) rotate(0deg);
+  }
+  to {
+    transform: translateX(-25pt) rotate(36deg);
+    
+  }
+}
+
+.satbox1 {
+  width: 150pt;
+  height: 30pt;
+  border: 0.75pt solid black;
+  background: #061014;
+  position: absolute;
+  left: 187.5pt;
+  top: 75pt;
+  transform: rotate(45deg);
+  animation: satbox1 6s alternate linear infinite;
+}
+
+.satcirc {
+  width: 37.5pt;
+  height: 37.5pt;
+  position: absolute;
+  left: 243.75pt;
+  top: 71.25pt;
+  background: #9dcee2;
+  border-radius: 50%;
+/*   margin: 0 auto;
+  transform: translateY(-127px) translateX(159px); */
+}
+
+@keyframes satbox1 {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
