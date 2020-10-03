@@ -5,3 +5,5 @@
 - Challenge: Putting the 'Art' in Artemis
 - Location: Aaruush - Bangalore
 - Members: Tanya Sabarwal and Piyush Mohan (2)
+
+Code for Html and Css have been added for the part of Animation. (FURTHER CODE TO BE ADDED LATER)
