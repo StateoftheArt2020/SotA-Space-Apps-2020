@@ -8,4 +8,6 @@
 
 Updates:
  - Code for Html and Css have been added for the part of Animation. (STILL IN PROGRESS)
- - Description Spark AR Filter has been added. (STILL IN PROGRESS)
+ - Description Spark AR Filter has been added. (FINAL TESTING)
+ - Video clips for Video are cut and stored.
+ - Images from Nasa resources are stored.
