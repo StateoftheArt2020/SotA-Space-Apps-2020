@@ -6,4 +6,6 @@
 - Location: Aaruush - Bangalore
 - Members: Tanya Sabarwal and Piyush Mohan (2)
 
-Code for Html and Css have been added for the part of Animation. (STILL IN PROGRESS)
+Updates:
+ - Code for Html and Css have been added for the part of Animation. (STILL IN PROGRESS)
+ - Description Spark AR Filter has been added. (STILL IN PROGRESS)
