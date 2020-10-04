@@ -13,3 +13,5 @@ Updates:
  - Images from Nasa resources are stored.
  - 3D Modelling and Design has been started.
  - Music Production for Demo-video and Project-video (100% done)
+ - Cartoons (Started)
+ - Adobe Illustrations and Tracing (Started)
