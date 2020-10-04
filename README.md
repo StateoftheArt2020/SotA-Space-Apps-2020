@@ -8,12 +8,13 @@
 - Demo Video : https://youtu.be/vEmNFJstu0o
 
 Updates:
- - Code for Html and Css have been added for the part of Animation. (90% done)
- - Description Spark AR Filter has been added. (98% done)
- - Video clips for Video are cut and stored.
- - Images from Nasa resources are stored.
- - 3D Modelling and Design (Halfway there)
- - Music Production for Demo-video and Project-video (100% done)
- - Cartoons (100% done)
- - Adobe Illustrations and Tracing (Halfway there)
- - Video Editing started.
+ - Code for Html and Css have been added for the part of Animation.
+ - Spark AR Filter has been added.
+ - Cartoons have been added.
+ - Illustrations have been added.
+ - Demo audio has been added.
+ - Final Project audio has been added.
+ - Demo video and project video links have been added.
+ - 3D Model has been added.
+ - Team page Updated.
+ - Project Submitted.
